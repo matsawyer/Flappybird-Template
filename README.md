@@ -1,2 +1,4 @@
 # Flappybird-Template
-WIP
+
+Tap bird to fly. 
+
