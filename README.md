@@ -1,10 +1,14 @@
 # Flappybird-Template
 
 TODO:
-  *~~Flying taps~~
-  *~~Gravity timer~~
-  *Tunnels 
-  *Score
+
+  * ~~Flying taps~~
+  * 
+  * ~~Gravity timer~~
+  * 
+  * Tunnels 
+  * 
+  * Score
 
 
 
