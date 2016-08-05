@@ -1,4 +1,10 @@
 # Flappybird-Template
 
-Tap bird to fly. 
+TODO:
+~~Flying taps~~
+~~Gravity timer~~
+Tunnels 
+Score
+
+
 
