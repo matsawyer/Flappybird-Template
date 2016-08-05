@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MainMenu.png" translatesAutoresizingMaskIntoConstraints="NO" id="yyE-zf-xzF">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Flappy Bird" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k8f-gH-ded">
+                                <rect key="frame" x="102" y="128" width="396" height="82"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Tap on the Bird to make it fly" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lzJ-1R-afM">
+                                <rect key="frame" x="177" y="314" width="218" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FWm-RG-85P">
+                                <rect key="frame" x="251" y="471" width="110" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Play Game" backgroundImage="Tunnel.png">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="99D-7V-CdF" kind="presentation" id="bna-sA-9Dd"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="yyE-zf-xzF" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="3Id-M8-EDp"/>
+                            <constraint firstItem="yyE-zf-xzF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7IM-Ul-Dsp"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="yyE-zf-xzF" secondAttribute="bottom" id="AKM-sX-tzn"/>
+                            <constraint firstItem="lzJ-1R-afM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FB4-nM-2sd"/>
+                            <constraint firstItem="FWm-RG-85P" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OrZ-6w-0x5"/>
+                            <constraint firstAttribute="trailing" secondItem="yyE-zf-xzF" secondAttribute="trailing" id="ZJD-jN-5My"/>
+                            <constraint firstItem="lzJ-1R-afM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Zvb-Gj-G2B"/>
+                            <constraint firstItem="FWm-RG-85P" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gRn-8Q-8pG"/>
+                            <constraint firstItem="yyE-zf-xzF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="kAw-lT-2jv"/>
+                            <constraint firstItem="k8f-gH-ded" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kQc-y2-pdc"/>
+                            <constraint firstItem="k8f-gH-ded" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lOJ-7B-nLv"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="320" y="354"/>
+        </scene>
+        <!--Game-->
+        <scene sceneID="IIY-Mb-lIU">
+            <objects>
+                <viewController id="99D-7V-CdF" customClass="Game" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Xpe-EP-yGR"/>
+                        <viewControllerLayoutGuide type="bottom" id="vP7-3a-SjK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="d99-Ks-KJb">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FixedGameback.png" translatesAutoresizingMaskIntoConstraints="NO" id="udZ-Nf-ovZ">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BirdUp.png" translatesAutoresizingMaskIntoConstraints="NO" id="MfI-g8-qfU">
+                                <rect key="frame" x="165" y="280" width="40" height="40"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KZI-W1-5vJ">
+                                <rect key="frame" x="228" y="158" width="144" height="51"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Start Game">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="StartGame:" destination="99D-7V-CdF" eventType="touchUpInside" id="acW-8P-x2u"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="udZ-Nf-ovZ" firstAttribute="top" secondItem="d99-Ks-KJb" secondAttribute="top" id="3L6-Si-eKC"/>
+                            <constraint firstItem="KZI-W1-5vJ" firstAttribute="top" secondItem="Xpe-EP-yGR" secondAttribute="bottom" constant="138" id="B0K-eT-oIQ"/>
+                            <constraint firstItem="vP7-3a-SjK" firstAttribute="top" secondItem="udZ-Nf-ovZ" secondAttribute="bottom" id="DlS-Tp-r2I"/>
+                            <constraint firstItem="udZ-Nf-ovZ" firstAttribute="leading" secondItem="d99-Ks-KJb" secondAttribute="leading" id="FyJ-fq-YxT"/>
+                            <constraint firstItem="KZI-W1-5vJ" firstAttribute="top" secondItem="Xpe-EP-yGR" secondAttribute="bottom" constant="138" id="WNJ-As-zQa"/>
+                            <constraint firstItem="vP7-3a-SjK" firstAttribute="top" secondItem="KZI-W1-5vJ" secondAttribute="bottom" constant="391" id="Wnc-7O-ZSd"/>
+                            <constraint firstAttribute="trailing" secondItem="udZ-Nf-ovZ" secondAttribute="trailing" id="ZQt-aV-2j6"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="WNJ-As-zQa"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="Bird" destination="MfI-g8-qfU" id="DGH-Qv-EwS"/>
+                        <outlet property="StartGame" destination="KZI-W1-5vJ" id="CVs-wy-i2r"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AlI-Ef-Qlm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="996" y="463"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BirdUp.png" width="40" height="40"/>
+        <image name="FixedGameback.png" width="320" height="480"/>
+        <image name="MainMenu.png" width="320" height="480"/>
+        <image name="Tunnel.png" width="50" height="100"/>
+    </resources>
+</document>
